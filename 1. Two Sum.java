@@ -7,6 +7,7 @@ class Solution {
             if (m.containsKey(y)) {
                 return new int[] {m.get(y), i};
             }
+            
             m.put(x, i);
         }
     }
